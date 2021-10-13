@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.row{
+    /* background-color: #92E3A9; */
+    height: 100vh;
+}
+.form{
+    margin-top: 10px;
+    width: 800px;
+}
+h1{
+    font-weight: bolder;
+}
+#survey{
+    margin: 150px 0 200px 150px;
+    width: 800px;
+ 
+}
+#survey p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+}
+#footer span{
+    color: #fff;
+
+}
+.description{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reg-button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+}
+.img{
+    background: url('/img/bg.svg'), #92E3A9;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+.img{
+display: none;
+}
+#survey{
+    margin: 0 0 0 0;
+}
+.bg{
+width: 600px;
+}
+.column{
+    width: 100%;
+}
+}
+.form{
+    width: 500px;
+}
+.page{
+    width: 400px;
+    Height: 500px;
+    margin: auto;
+    background-color: #fff;
+}
+.text{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.text1{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b8adad;
+    margin-top: 20px;
+}
+#footer{
+    margin-top: 0;
+}
+.icon{
+    width: 40%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.group{
+    margin: 50px 10px 10px 80px;
+}
+.group button{
+    padding: 10px;
+    width: 250px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.id{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
