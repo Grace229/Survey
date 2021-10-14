@@ -10,9 +10,10 @@ const userID = randomstring.generate({
     length: 15,
     charset: 'alphanumeric'
   });
+  
 
 // db connection
-mongoose.connect('mongodb+srv://grace:MQQdp4Rj3JDHdSKe@cluster0.68k1d.mongodb.net/Waaw-Survey?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://grace:MQQdp4Rj3JDHdSKe@cluster0.68k1d.mongodb.net/Waaw-Survey')
 .then((dbconnect) => console.log('Database connected successfully'))
 .catch((err) => console.log('Database connected successfully', err.message))
 
